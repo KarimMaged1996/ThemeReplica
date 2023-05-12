@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+}
+
+div.topHeader svg {
+  height: 3vh;
+  width: auto;
+}
+
+div.topHeader span {
+  color: #999999;
+}
+
+.topHeader {
+  display: flex;
+  justify-content: space-between;
+  height: 4vh;
+  background-color: #282828;
+  vertical-align: middle;
+}
+.icons {
+  margin-left: 7.5vw;
+  color: #ffffff;
+}
+.info {
+  display: flex;
+  gap: 2px;
+  margin-right: 7.5vw;
+  color: #ffffff;
+}
+.info span {
+  color: #ffffff;
+}
+
+.lightGray {
+  color: #999999;
+}
