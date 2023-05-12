@@ -98,3 +98,41 @@ div.bottomHeader :nth-child(2) :nth-child(7)::after {
   font-size: 0.75rem;
   top: -0.5rem;
 }
+
+/* MAIN IMAGE */
+div.main svg {
+  height: 10vh;
+  color: #ffffff;
+}
+
+.main {
+  height: 95vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url('./imgs/img2.jpg');
+  background-size: cover;
+}
+
+div.main :nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vh;
+  color: #000;
+}
+
+div.main :nth-child(2) :nth-child(1) {
+  font-size: 4rem;
+}
+div.main :nth-child(2) :nth-child(2) {
+  font-size: 1.5rem;
+}
+div.main :nth-child(2) :nth-child(3) {
+  font-size: 1.5rem;
+  padding: 2vh;
+  border-radius: 30px;
+  border: none;
+  color: #ffffff;
+  background-color: green;
+}
