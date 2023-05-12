@@ -152,3 +152,32 @@ div.main :nth-child(2) :nth-child(3) {
   align-items: center;
   font-size: 1.5rem;
 }
+
+/* DEALS */
+div.deals svg {
+  height: 4vh;
+}
+.deals {
+  width: 80vw;
+  height: 35vh;
+  margin: auto;
+  margin-bottom: 3vh;
+  background-color: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+div.deals :nth-child(1) {
+  display: flex;
+  gap: 1vh;
+  justify-content: flex-start;
+  vertical-align: baseline;
+  align-items: center;
+  margin-left: 1.5rem;
+  font-size: 2rem;
+}
+
+div.deals :nth-child(2) {
+  align-self: center;
+}
