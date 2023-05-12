@@ -1,7 +1,9 @@
 body {
   margin: 0;
+  box-sizing: border-box;
 }
 
+/* THE TOP HEADER */
 div.topHeader svg {
   height: 3vh;
   width: auto;
@@ -14,6 +16,7 @@ div.topHeader span {
 .topHeader {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   height: 4vh;
   background-color: #282828;
   vertical-align: middle;
@@ -34,4 +37,64 @@ div.topHeader span {
 
 .lightGray {
   color: #999999;
+}
+
+/* THE BOTTOM HEADER */
+
+#home {
+  height: 2vh;
+}
+
+#magnify {
+  height: 3vh;
+  position: absolute;
+  right: 3px;
+}
+
+.bottomHeader {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+div.bottomHeader :nth-child(1) {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+div.bottomHeader :nth-child(1) :nth-child(1) {
+  color: #999999;
+}
+/* FORTUNA TEXT */
+div.bottomHeader :nth-child(1) :nth-child(2) {
+  font-size: 2.75rem;
+}
+
+/* INPUT ELEMENT */
+div.bottomHeader :nth-child(1) :nth-child(3) :nth-child(1) {
+  border: none;
+  border-bottom: solid 1px;
+}
+/* INPUT ELEMENT PARENT */
+div.bottomHeader :nth-child(1) :nth-child(3) {
+  display: flex;
+  position: relative;
+}
+
+div.bottomHeader :nth-child(2) {
+  display: flex;
+  justify-content: center;
+  gap: 2vw;
+  position: relative;
+}
+
+div.bottomHeader :nth-child(2) :nth-child(7)::after {
+  content: 'new';
+  color: #ffffff;
+  background-color: #40b3ff;
+  position: absolute;
+  font-size: 0.75rem;
+  top: -0.5rem;
 }
