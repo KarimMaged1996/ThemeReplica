@@ -191,6 +191,14 @@ div.main :nth-child(2) :nth-child(3) {
   justify-content: center;
   align-items: center;
   font-size: 1.5rem;
+  padding: 1vh;
+}
+
+@media screen and (max-width: 700px) {
+  .deliveryNotice {
+    height: auto;
+    padding-left: 2vh;
+  }
 }
 
 /* DEALS */
