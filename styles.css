@@ -157,6 +157,26 @@ div.main :nth-child(2) :nth-child(3) {
   background-color: green;
 }
 
+@media screen and (max-width: 700px) {
+  div.main svg {
+    height: 5vh;
+  }
+  .main {
+    height: 40vh;
+  }
+  div.main :nth-child(2) :nth-child(1) {
+    font-size: 2rem;
+  }
+  div.main :nth-child(2) :nth-child(2) {
+    font-size: 1rem;
+  }
+  div.main :nth-child(2) :nth-child(3) {
+    font-size: 1rem;
+    padding: 0.75vh;
+    border-radius: 15px;
+  }
+}
+
 /* DELIVERY NOTICE */
 .deliveryNotice {
   width: 80vw;
