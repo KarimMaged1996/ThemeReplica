@@ -241,7 +241,6 @@ div.circles {
   min-height: 30vh;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
 }
 
 div.circles > div {
@@ -251,7 +250,7 @@ div.circles > div {
   align-items: center;
   gap: 5px;
 }
-/* make media query for mobile and set the width 100% */
+
 .circle {
   border: solid;
   height: 12vh;
@@ -268,6 +267,15 @@ div.circles > div {
 
 .smallText {
   color: #999999;
+}
+
+@media screen and (max-width: 1000px) {
+  div.circles {
+    flex-wrap: wrap;
+  }
+  div.circles > div {
+    width: 100%;
+  }
 }
 
 /* ABOUT */
