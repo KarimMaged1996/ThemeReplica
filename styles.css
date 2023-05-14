@@ -281,6 +281,9 @@ div.circles > div {
 }
 
 /* PRODUCTS */
+.product :hover {
+  border: solid 1px;
+}
 .productsSec {
   width: 80vw;
   margin: auto;
@@ -367,6 +370,21 @@ div.product button {
 
 /* ABOUT */
 .about {
-  height: 50vh;
+  height: 30vh;
+  padding: 4vh;
   background-color: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.about svg {
+  height: 4vh;
+}
+
+.footerIcons {
+  align-self: center;
+}
+.center {
+  align-self: center;
 }

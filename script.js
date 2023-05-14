@@ -1,4 +1,3 @@
-console.log('working');
 let products = document.querySelectorAll('.product');
 
 products.forEach((product) => {
