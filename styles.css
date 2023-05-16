@@ -281,9 +281,6 @@ div.circles > div {
 }
 
 /* PRODUCTS */
-.product :hover {
-  border: solid 1px;
-}
 .productsSec {
   width: 80vw;
   margin: auto;
